@@ -3,6 +3,9 @@ title: "Add Pset name here"
 author: "Your Name Here"
 date: "Date Here"
 format: pdf
+execute:
+  eval: true
+  echo: true
 ---
 
 ```{python}
