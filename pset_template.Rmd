@@ -2,61 +2,58 @@
 title: "Add Pset name here"
 author: "Your Name Here"
 date: "Date Here"
-output: pdf_document
+format: pdf
 ---
 
-```{r message=FALSE, warning=FALSE}
-library(tidyverse)
+```{python}
+#| message: false
+#| warning: false
+import pandas as pd
+import altair as alt
+from vega_datasets import data
 ```
 
-<!-- .Rmd files use  markdown, a text mark up language, to provide formating.-->
-
-<!--Text include within these strange arrows are comments and will not show up when you knit-->
+<!-- .qmd files use Quarto markdown, a text markup language, to provide formatting. -->
+<!-- Text included within these strange arrows are comments and will not show up when you render -->
 
 # Front matter
 
-This submission is my work alone and complies with the 30535 integrity policy.
+This submission is my work alone and complies with the 30538 integrity policy.
 
-Add your initials to indicate your agreement: \<\<\_\>\>
+Add your initials to indicate your agreement: <<_>>
 
-Upload your collaborators here: https://forms.gle/3mH1ofZZj9ZCgBHb8
+Upload your collaborators here: https://docs.google.com/forms/d/1-zzHx762odGlpVWtgdIC55vqF-j3gqdAp6Pno1rIGK0/edit
 
-Late coins used this pset: 0. Late coins left: 4. <!--You may use one for a given assignment.-->
+Late coins used this pset: 0. Late coins left: 4. <!-- You may use one for a given assignment. -->
 
-# R for Data Science Exercises
+# Data Science Exercises
 
-<!--Note: Please do not restate questions in your submissions, directly write your answer--->
+<!-- Note: Please do not restate questions in your submissions, directly write your answer -->
 
 ## First Section
 
-<!--(Notice the use of two `##`)-->
+<!-- (Notice the use of two `##`) -->
 
-1.  YOUR TEXT ANSWER GOES HERE (Please delete)
+1. YOUR TEXT ANSWER GOES HERE (Please delete)
 
--   The dash symbol creates unordered list
-
--   Another example
-
-    1.  numbering creates ordered list
-    2.  Another example
-
-    -   like This
-    -   Like this as well
+- The dash symbol creates unordered list
+- Another example
+  1. numbering creates ordered list
+  2. Another example
+     - like This
+     - Like this as well
 
 **Delete all the text in `1.` before you write your answer**
 
-```{r}
+```{python}
 # YOUR CODE GOES HERE  (Please delete)
-ggplot(mpg, aes(manufacturer)) + geom_bar()
+mpg = data.cars()
+
+chart = alt.Chart(mpg).mark_bar().encode(
+    x='Origin:N',
+    y='count()',
+    color='Origin:N'
+).properties(
+    title='Count of Cars by Origin'
+)
 ```
-
-
-## Second Section
-
-1.  YOUR TEXT ANSWER GOES HERE (Please delete)
-
-```{r}
-# YOUR CODE GOES HERE  (Please delete)
-ggplot(mtcars, aes(factor(cyl), mpg)) + geom_violin(aes(fill=mpg))
-```
-
