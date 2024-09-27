@@ -8,55 +8,41 @@ execute:
   echo: true
 ---
 
-```{python}
-#| message: false
-#| warning: false
-import pandas as pd
-import altair as alt
-from vega_datasets import data
-```
+1. **PS1:** Due Sat Oct 5 at 5:00PM Central. Worth 50 points. Initiate your **[repo](https://classroom.github.com/a/uhUVze3Y)** 
 
-<!-- .qmd files use Quarto markdown, a text markup language, to provide formatting. -->
-<!-- Text included within these strange arrows are comments and will not show up when you render -->
+We use (`*`) to indicate a problem that we think might be time consuming. 
 
-# Front matter
+Steps to submit (5 points on PS1 and 10 points on PS2)
 
-This submission is my work alone and complies with the 30538 integrity policy.
+1. "This submission is my work alone and complies with the 30538 integrity
+policy." Add your initials to indicate your agreement: \*\*\_\_\*\*
+2. "I have uploaded the names of anyone I worked with on the problem set **[here](https://docs.google.com/forms/d/1-zzHx762odGlpVWtgdIC55vqF-j3gqdAp6Pno1rIGK0/edit)**"  \*\*\_\_\*\* (1 point)
+3. Late coins used this pset: \*\*\_\_\*\* Late coins left after submission: \*\*\_\_\*\*
+4. Knit your `ps1.qmd` to make `ps1.pdf`. 
+    * The PDF should not be more than 25 pages. Use `head()` and re-size figures when appropriate. 
+5. Push  `ps1.qmd` and `ps1.pdf` to your github repo. It is fine to use Github Desktop.
+6. Submit `ps1.pdf` via Gradescope (4 points) 
+7. Tag your submission in Gradescope
 
-Add your initials to indicate your agreement: <<_>>
+## Read in one percent sample (15 Points)
 
-Upload your collaborators here: https://docs.google.com/forms/d/1-zzHx762odGlpVWtgdIC55vqF-j3gqdAp6Pno1rIGK0/edit
+1.  
+1. 
 
-Late coins used this pset: 0. Late coins left: 4. <!-- You may use one for a given assignment. -->
+1.  
 
-# Data Science Exercises
+## Cleaning the data and benchmarking (15 Points)
 
-<!-- Note: Please do not restate questions in your submissions, directly write your answer -->
+1.  
 
-## First Section
+1.  
 
-<!-- (Notice the use of two `##`) -->
+## Visual Encoding (15 Points)
 
-1. YOUR TEXT ANSWER GOES HERE (Please delete)
-
-- The dash symbol creates unordered list
-- Another example
-  1. numbering creates ordered list
-  2. Another example
-     - like This
-     - Like this as well
-
-**Delete all the text in `1.` before you write your answer**
-
-```{python}
-# YOUR CODE GOES HERE  (Please delete)
-mpg = data.cars()
-
-chart = alt.Chart(mpg).mark_bar().encode(
-    x='Origin:N',
-    y='count()',
-    color='Origin:N'
-).properties(
-    title='Count of Cars by Origin'
-)
-```
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
