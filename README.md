@@ -6,13 +6,13 @@ Problem sets are due at 5PM Saturday. You have 4 late coins for the quarter. A l
 ## Problem sets workflow
 
 1. A pdf with the problem set will be on canvas, it has a link on it
-2. Go to this link (assigment invitation) and accept it (refhresh your browser after accepting it and then click the link)
+2. Go to this link (assigment invitation) and accept it (refresh your browser after accepting it and then click the link)
 3. This will fork the starter repository into our organization's repository (datasci-harris), with your Github username
 4. Click on code, select open with GitHub Desktop
-4. This will open your GitHub Desktop and ask you if you want to clone the repository, select the folder you want it to live. By defauly Github Desktop will use the last folder you have used.
-5. Rename `pset_template.Rmd` as directed by the homework
-6. Work on your assigment using RStudio with this renamed file
-7. Use `knitr` to create a `pdf` document for your assigment (now you have a pdf and a Rmd with the same name)
+4. This will open your GitHub Desktop and ask you if you want to clone the repository, select the folder you want it to live. By default Github Desktop will use the last folder you have used.
+5. Rename `pset_template.qmd` as directed by the homework
+6. Work on your assigment using VSCode with this renamed file
+7. Use to create a `pdf` document for your assigment (now you have a pdf and a qmd with the same name)
 8. Go back to GitHub Desktop and commit and push your assigment to the cloud
 9. You can check if your assigment was succesfully uploaded by going to github from your GitHub Desktop
 
